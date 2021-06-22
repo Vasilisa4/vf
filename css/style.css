@@ -1,0 +1,269 @@
+
+body {
+  min-width: 900px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+p,
+ul,
+h1,
+h2,
+h3,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: #EEEEEE;
+}
+.section-slider { 
+  background-color: #EEEEEE;
+  width: 1157px;
+  height: 431px;
+  left: 140px;
+  top: 114px;
+}
+.div-slide{
+  width: 1157px;
+  height: 431px;
+  left: 140px;
+  top: 114px;
+}
+.section-services{
+  width: 1100px;
+  height: 347px;
+  left: 140px;
+  top: 625px;
+}
+.body {
+  font-size: 16px;
+  line-height: 24px;
+  
+  align-items: center;
+  
+  color: #283136;}
+  .section-company{
+    width: 1174px;
+    height: 413px;
+    left: 140px;
+    top: 1093px;
+  }
+  .body {
+    font-size: 16px;
+    line-height: 24px;
+    
+    align-items: center;
+    
+    color: #283136;
+  }
+  .section-customers{
+    width: 1159px;
+    height: 184px;
+    left: 140px;
+    top: 1579px;
+  }
+  .footer-contacts{
+    width: 1440px;
+    height: 416px;
+    left: 0px;
+    top: 1843px;
+  }
+  .body{
+    font-size: 16px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #666666;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    
+    color: #444444;
+  }
+  .section-basement{
+    width: 1060px;
+    height: 81px;
+    left: 140px;
+    top: 2327px;    
+  }
+  .section-info{
+    position: relative;
+    width: 1440px;
+    height: 2476px;
+    background: #FFFFFF;
+  }
+  .main-filters{
+    width: 260px;
+    height: 80px;
+    left: 140px;
+    top: 488px;
+    
+    background: #EEEEEE;
+    border-radius: 3px;
+  }
+  .section-blok {
+    width: 208px;
+    height: 418px;
+    left: 140px;
+    top: 674px;
+  }
+  .section-catalog {
+    width: 60px;
+    height: 18px;
+    left: 940px;
+    top: 416px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    mix-blend-mode: normal;
+  }
+  .ul-sedona{
+    width: 359px;
+    height: 578px;
+    left: 541px;
+    top: 529px;
+    
+    background: url(img-sedona.jpg);
+  }
+  .body {
+    width: 255px;
+    height: 37px;
+    left: 592px;
+    top: 945px;
+    
+    color: #666666;
+  }
+  .ul-pink{
+    width: 358px;
+    height: 578px;
+    left: 941px;
+    top: 529px;
+    
+    background: url(img-pink.png);
+  }
+  .body {
+    width: 255px;
+    height: 37px;
+    left: 592px;
+    top: 945px;
+    
+    color: #666666;
+  }
+  .li-barbershop{
+    width: 358px;
+    height: 578px;
+    left: 541px;
+    top: 1179px;
+    
+    background: url(img-barbershop.jpg);
+  }
+  .li-catalog-item{
+    width: 359px;
+    height: 578px;
+    left: 941px;
+    top: 1179px;
+    
+    background: url(img-mishka.jpg);
+    
+    position: absolute;
+    width: 359px;
+    height: 578px;
+    left: 541px;
+    top: 1829px;
+    
+    background: url(img-aplus.jpg);
+    
+    width: 359px;
+    height: 578px;
+    left: 941px;
+    top: 1829px;
+    
+    background: url(img-kvast.jpg);
+  }
+  .ul-namber {
+    width: 50px;
+    height: 50px;
+    left: 601px;
+    top: 2462px;
+    
+    background: #EEEEEE;
+    border-radius: 3px;
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    left: 723px;
+    top: 2462px;
+    
+    background: #EEEEEE;
+    border-radius: 3px;
+  }
+  .section-additional information{
+    left: 9.72%;
+    right: 68.12%;
+    top: 12.98%;
+    bottom: 12.98%;
+    
+    background: #FFFFFF;
+    
+  }
+  .form-contacts-form{
+    left: 13.19%;
+    right: 71.6%;
+    top: 63.7%;
+    bottom: 24.28%;
+    
+    background: #FB565A;
+    border-radius: 3px;
+  }
+  
+  .button{
+    text-decoration: none;
+    color: white;
+    padding: 15px 54px 17px;
+    background-color: #FB565A;
+  }
+  .div-button-stoimost{
+    width: 80px;
+    height: 38px;
+    left: 172px;
+    top: 582px;
+    
+    background: #EEEEEE;
+    border-radius: 3px;
+  }
+  .ul-number-n{
+    width: 50px;
+    height: 50px;
+    left: 662px;
+    top: 2462px;
+    
+    background: #EEEEEE;
+    border-radius: 3px;
+  }

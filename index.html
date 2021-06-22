@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс Muy</title>
+
+     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  </head>
+  <body>
+
+<div>
+
+    <header class="header">
+      <img  class = logo src="./img/logo.svg">
+      <nav>
+        <ul>
+          <li class="navli"><a href="#">студия</a></li>
+          <li class="navli"><a href="#">клиенты</a></li>
+          <li class="navli"><a href = 'catalog.html'>Магазин</a></li>
+          <li class="navli" ><a href="#"> контакты</a></li>
+          <li class="navli" id = navlik><a href="./img/cart_icon.svg"> &#128722; корзина</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-slider">
+        <div>
+          <img class=index src="img/index.png">
+        </div>
+        <div class="slide">
+          <h2>Долго, дорого, скрупулезно</h2>
+          <p>
+            Математически выверенный дизайн
+            для вашего сайта или мобильного приложения.
+            </p>
+          <a class="button" href="#">Узнать больше</a>
+
+        </div>
+      </section>
+      <section class="services">
+        <h2>Наши услуги</h2>
+        <ul>
+          <li>
+            <img src="img/sait.jpg">
+            <br class="clear"/>
+            <ts>Веб-сайты</ts>
+            <p>Мир никогда не будет прежним
+после того как увидит ваш сайт!</p>
+            <a href="#">Заказать</a>
+          </li>
+          <li>
+            <img src="img/play.png">
+              <br class="clear"/>
+             <ts>Приложения</ts>
+            <p>Покорите топ-10 приложений
+в AppStore и Google Play</p>
+            <a id= "buttongreen" href="#">Заказать</a>
+          </li>
+          <li>
+            <img src="img/presen.png">
+              <br class="clear"/>
+            <ts>Презентации</ts>
+            <p>Вы даже не подозреваете,
+насколько вы изумительны!</p>
+            <a id ="buttonyellow" href="#">Заказать</a>
+          </li>
+        </ul>
+        <br class="clear"/>
+        <hr />
+      </section>
+      <section class="company">
+        <h3>О компании</h3>
+        <div>
+          <h2 class="header-title">Мы — маленькая, но гордая
+дизайн-студия из Краснодара.</h2>
+          <p class="header-info">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+выше креатива. Работаем не покладая рук, как роботы.</p>
+          <p class="detail-list-title">Выполняем заказы на разработку:</p>
+          <ul class="detail-list">
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+
+        <div class =work>
+          <p>Как мы работаем</p>
+          <img src="img/nerds.png">
+            <div class = "since">с 2004 года Любим точность во всем:</div>
+          <ul class = sinsc>
+            <li>146%</li>
+            <li>100%</li>
+            <li>50%</li>
+          </ul>
+          <ul  class = sinst>
+            <li>С самоотдачей</li>
+            <li>Соблюдая сроки на </li>
+            <li>По предоплате </li>
+          </ul>
+        </div>
+        <hr class = "l"/>
+      </section>
+      <section class="customers">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="img/logo_htmlacademy.png">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/logo_borodinsky.png">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/logo_pink.png">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/logo_mishka.png">
+            </a>
+          </li>
+        </ul>
+      </section>
+        <hr />
+    </main>
+    <footer class="contacts">
+      <section class="adress">
+        <img src="img/map.png"
+          alt="Дизайн-студия NЁRDS расположена по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="1440"
+          height="416">
+          <img  id="metka" src="img/m.png" />
+        <div class = "nerds">
+          <div>
+            <b>NЁRDS DESIGN STUDIO</b>
+            <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8</p>
+            <p class = tel>тел. <a  href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+            <a class="write-us button" href="#modal_open">Напишите нам</a>
+
+  
+            <div id="modal_open" class="my_modal">
+    <div class="my_modal-dialog">
+      <div class="my_modal-content">
+        <div class="my_modal-header">
+
+
+          <div class = "window">
+
+
+              Напишите нам
+    <br class="clear"/>
+
+         <div class =pols>
+         <label class="data" for="login">Ваше имя:</label>
+         <input id="logins" type="text" name="login" id="login" placeholder="Представьтесь, пожалуйста" required>
+       </div>
+       <div class="feedback-right-column">
+         <label class="data" for="email">Ваш e-mail:</label>
+         <input type="email" name="email" id="email" placeholder="Для отправки ответа" required>
+       </div>
+       <div class="datat">
+
+     <br class="clear"/>
+         <label  for="feedback-textarea">Текст письма:</label>
+     <br class="clear"/>
+         <textarea name="text" id="feedback-textarea" placeholder="В свободной форме" required rows="5"></textarea>
+       </div>
+       <div class="buttonps">
+         <button  type="button">Отправить</button>
+         <button id="buttonp" type="button">Отмена</button>
+       </div>
+          <a href="#"  title="Закрыть модальное окно" class="close">×</a>
+
+
+        </div>
+   
+          </div>
+        </div>
+      </section>
+      <section class="basement">
+        <ul class = "icons">
+          <li>
+            <a class="footer-left-column">
+              <img src="./img/f.png" alt="fb_icon">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-btn footer-btn-vk">
+              <img src="./img/vk.svg" alt="vk_icon"></a>
+          </li>
+          <li>
+            <a href="#" class="footer-btn footer-btn-inst">
+              <img src="./img/unnamed.png" alt="instagram icon">
+            </a>
+          </li>
+        </ul>
+        <div class="footer-right-column">
+          <h2 class="title">Давайте дружить, это выгодно!</h2>
+          <p class="info">Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </section>
+    </footer>
+</div>
+  </body>
+</html>
